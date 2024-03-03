@@ -1,0 +1,310 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ----navbar starts */
+.header{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    /* border: 1px solid red; */
+    width: 90px;
+    height: 90px;
+    margin-left: 20px;
+
+}
+
+.logo > img{
+    width: 100%;
+    height: 100%;
+}
+
+.nav-items{
+    /* border: 1px solid black; */
+    margin-right: 40px;
+    
+}
+
+.nav-items > ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.nav-items > ul > li{
+    font-size: 20px;
+    color: red;
+    cursor: pointer;
+}
+
+
+    .head-btn{
+        padding: 5px 15px;
+        border: none;
+        cursor: pointer;
+        background-color: rgb(165, 240, 240);
+        border-radius: 5px;
+        font-weight: 600;
+
+    }
+
+  .link{
+        text-decoration: none;
+        border: none;
+        color: red;
+    }
+
+    .nav-items > ul > li > .link:hover{
+        color: blue;
+    }
+
+    .nav-items > ul > li:hover{
+        color: blue;
+    }
+/* ---------------navbar ends-------------- */
+
+.filter{
+    /* border: 1px solid red; */
+    width: 200px;
+    height: 30px;
+    margin-left: 5%;
+}
+
+.filter-btn{
+    width: 100%;
+    height: 100%;
+    border: none;
+    color: white;
+    background-color: brown;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+
+.filter-btn:hover{
+    transition: 0.4s;
+    color: black;
+    background-color: rgb(160, 241, 241);
+    box-shadow: 0px 5px 5px rgb(136, 237, 237);
+}
+
+
+
+.search{
+    /* border: 1px solid black ; */
+    width: 30%;
+    height: 40px;
+    margin-left: 35%;
+    margin-top: 10px;
+
+}
+
+.searchBtn{
+    margin-left: 20px;
+    padding: 5px 10px;
+    border: none;
+    background-color: rgb(164, 235, 235);
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.placeholder{
+    width: 60%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid red;
+    font-size: 20px;
+  
+    
+}
+.res-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* border: 1px solid black; */
+    width: 100%;
+    height: auto;
+    margin-top: 2%;
+    padding: 20px 20px;
+    row-gap: 10px; 
+    column-gap: 12px;
+    
+}
+
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 500px;
+    margin-top: 2%;
+    padding: 20px 20px;
+    row-gap: 10px;
+    column-gap: 12px;
+}
+
+
+.restroCards{
+    /* border: 1px solid red; */
+    background-color: rgb(220, 235, 248);
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    gap: 10px;
+    cursor: pointer;
+    
+
+}
+
+.shimmer-card{
+    background-color: rgba(246, 246, 246, 0.749);
+    width: 19%;
+    height: 100%;
+    padding: 10px;
+    gap: 10px;
+}
+
+.restroCards:hover{
+    box-shadow: 0 0 5px 5px rgb(152, 189, 245) ;
+    transition: 0.2s;
+
+}
+
+.restroCards > img{
+    width: 100%;
+    height: 200px;
+}
+
+h3{
+    margin-top: 5px;
+    font-size: 15px;
+} 
+
+h3, h4{
+    margin: 8px;
+    font-size: 15px;
+    word-wrap:break-word;
+   
+}
+
+/* -----------------body ends---------------- */
+
+
+.footer{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 300px;
+    margin-top: 10%;
+    background-color: aliceblue;
+    
+}
+.footer > p{
+    text-align: center;
+   margin-bottom: 20px;
+}
+
+.foo-items{
+    display: flex;
+    justify-content: space-around;
+    padding :20px;
+}
+.links, .address, .contact{
+    /* border: 1px solid red; */
+    width: 30%;
+    height: 200px;
+}
+
+.address, .contact{
+    padding: 10px;
+    text-align: center;
+}
+
+/* ------------in header section css of about/ contact/ error ----starts--- */
+
+
+.error{
+    /* border: 1px solid red; */
+    width:30%;
+    height: auto;
+    margin-top: 2%;
+    margin-left: 30%;
+    text-align: center;
+}
+
+.error> img{
+    width: 80%;
+    height: 80%;
+}
+
+
+/* ----------Restaurants Menu css start -------------*/
+
+.menuDiv{
+    /* border: 1px solid rgb(236, 183, 183); */
+    margin-top:5%;
+    margin-left: 15%;
+    width: 70%;
+    height: 100%;
+    padding: 10px 20px;
+    box-shadow: 0px 0px 5px 5px rgb(236, 183, 183);
+    /* height: auto; */
+}
+.upperRow{
+    height: 150px;
+    /* border: 1px solid red; */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 5px 5px 5px gray;
+    margin-bottom: 100px;
+
+}
+.lowerRow{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 170px;
+    padding: 20px;
+    /* border: 1px solid red; */
+    box-shadow: 5px 5px 5px gray;
+    
+}
+
+.menuName{
+    width: 70%;
+}
+
+.menuName > p{
+    margin-top: 20px;
+    color: red;
+}
+
+.rec-image{
+    /* border: 1px solid red; */
+    margin-top: -10px;
+    width: 150px;
+    height: 120px;
+}
+
+.rec-image > img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.bodyLink{
+    text-decoration: none;
+    border: none;
+    color: black;
+}
